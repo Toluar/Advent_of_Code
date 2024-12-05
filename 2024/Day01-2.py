@@ -6,12 +6,12 @@ with open('Input.01') as f:
 
 Col1,Col2 = zip(*[map(int, x.split()) for x in Data])
 
-A = sorted(Col1)
-B = sorted(Col2)
+T1 = sorted(Col1)
+T2 = sorted(Col2)
 
-C = Counter(B)
+C = Counter(T2)
 R = 0
-for i in range(len(A)):
-    R += A[i] * C[A[i]]
+for i in range(len(T1)):
+    R += T1[i] * C[T1[i]]
 
 print(R)

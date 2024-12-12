@@ -13,10 +13,6 @@ def Test_Valid(U):
             Valid = False
     return Valid
 
-def Middle(U):
-    L = len(U)
-
-
 Somme = 0
 for Update in Updates :
     if Test_Valid(Update) :

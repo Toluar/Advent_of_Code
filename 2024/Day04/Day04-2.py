@@ -21,7 +21,4 @@ for i in range(1,L-1) :
             if Data[i-1][j-1] == "M" and Data[i+1][j+1] == "S" and Data[i+1][j-1] == "S" and Data[i-1][j+1] == "M" :
                 Somme += 1
 
-
-
-
 print(Somme)

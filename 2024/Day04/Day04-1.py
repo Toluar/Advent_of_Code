@@ -39,7 +39,4 @@ for i in range(L) :
                 if Data[i-1][j-1] == "M" and Data[i-2][j-2] == "A" and Data[i-3][j-3] == "S" :
                     Somme += 1
 
-
-
-
 print(Somme)
